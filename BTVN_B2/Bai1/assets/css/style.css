@@ -7,7 +7,7 @@
 body {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  background-color: #d3e1fe;
+  background-color: #D3E1FE;
   height: 100vh;
   display: flex;
   justify-items: center;
@@ -15,12 +15,12 @@ body {
 }
 
 #wrapper {
-  width: 760px;
+  max-width: 760px;
   margin: 0 auto;
   background-color: #fff;
   border-radius: 20px;
   text-align: center;
-  height: 95vh;
+  box-shadow: 0 20px 20px rgb(250, 8, 250);
 }
 
 .banner {
@@ -28,25 +28,27 @@ body {
 }
 
 .banner img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 20px 20px 0 0;
 }
 
 #content {
   padding: 40px 20px;
+  
 }
 
 #content h1 {
   font-weight: 720;
+  font-size: 28px;
 }
 
 .desc {
-  font-size: 18px;
   font-weight: 600;
   color: grey;
-  width: 500px;
+  max-width: 400px;
   margin: 20px auto;
-  line-height: 28px;
+  line-height: 24px;
 }
 
 .music {
@@ -55,13 +57,12 @@ body {
   align-items: center;
   margin: 20px auto;
   background-color: #f3f6ff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 20px;
-  width: 500px;
+  max-width: 400px;
 }
 
 .music .change {
-  font-size: 16px;
   font-weight: 800;
   color: #1500ff;
 }
@@ -73,7 +74,7 @@ body {
   display: flex;
   align-items: center;
   padding: 15px;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .music .icon i {
@@ -82,11 +83,10 @@ body {
 
 .music h3 {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .price {
-  font-size: 18px;
   font-weight: 600;
   color: gray;
   display: block;
@@ -94,17 +94,17 @@ body {
 }
 
 .pay {
-  width: 500px;
+  width: 400px;
   background-color: #3729de;
   border-radius: 12px;
-  padding: 20px;
+  padding: 16px;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 30px 0;
   outline: none;
   border: none;
-  box-shadow: -8px 8px 20px #3729de;
+  box-shadow: 0 10px 15px rgb(131, 125, 187);
 }
 
 .pay:hover {
@@ -112,9 +112,7 @@ body {
 }
 
 a.exit {
-  margin: 20px 0 30px;
   font-weight: 800;
-  font-size: 18px;
   color: gray;
   display: block;
 }
