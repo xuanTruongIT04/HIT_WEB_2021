@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    background-color: #e8e8e8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 28px;
+}
+.close{
+    font-size: 20px;
+    color: rgb(146, 133, 133);
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border: 3px solid rgba(204, 204, 204, 0.226);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-google{
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.login-google button {
+    font-size: 16px;
+    background-color: #fff;
+    min-width: 100%;
+    font-weight: 550;
+}
+
+.login-google .fa-google {
+    color: gray;
+    font-size: 14px;
+    padding: 4px;
+}
+
+form {
+     padding: 20px 0;
+}
+.lable__email, .lable__password {
+    font-weight: 550;
+    padding: 8px 0;
+    display: block;
+}
+
+.email, .password {
+    min-width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.email::placeholder {
+    text-align: right;
+    color: #ccc;
+    font-size: 14px;
+}
+
+input:focus {
+    border: 2px solid #000;
+    outline: none;
+}
+
+input:checked {
+    background-color: #ccc;
+}
+
+.container {
+    position: relative;
+}
+
+.eye{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:grey;
+}
+
+.remember {
+    padding: 30px 0;
+    display: flex;
+}
+
+#checkbox {
+    height: 18px;
+    width: 16px;
+    border-radius: 4px;
+}
+
+.remember label {
+    color: #8d7474;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.submit {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    background-color: blue;
+    border: 2px solid #e8e8e8;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.forgot {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.forgot a, .sign-up a {
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.sign-up{
+    padding: 20px 0;
+}
+
+.sign-up p {
+    color: cadetblue;
+    padding: 10px;
+}
+
+.boder-c {
+    padding: 8px;
+    border: 2px solid #e8e8e8;
+    border-radius: 6px;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.close, .login-google button, .eye{
+    cursor: pointer;
+}
+
+
