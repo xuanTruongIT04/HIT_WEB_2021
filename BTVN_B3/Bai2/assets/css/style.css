@@ -16,7 +16,7 @@ li {
 .container {
     background-color: #fff;
     width: 70vw;
-    height: 90vh;
+    min-height: 90vh;
     margin: 0 auto;
     position: absolute;
     left: 50%;
@@ -159,8 +159,8 @@ nav {
 i.next {
     display: block;
     position: absolute;
-    right: -16px;
-    top: 38%;
+    right: -20px;
+    top: 37%;
     font-size: 18px;
     height: 36px;
     width: 36px;
